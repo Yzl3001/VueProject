@@ -1,0 +1,330 @@
+.el-menu--horizontal {
+	background-color: #222 !important;
+	border-color: #080808 !important;
+    justify-content: center;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.Index {
+	min-height: 100vh;
+	min-width: 100vh;
+	padding-top: 40px;
+	background: white url(https://cdn.acwing.com/static/web/img/background.png) fixed;
+	background-size: auto;
+	width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;
+}
+
+.dh{
+	position: fixed;
+	margin-top: -40px;
+	width: 100%;
+	height: 60px;
+	background-color: #222;
+}
+
+.dh_top {
+	height: 55px;
+	width: 1140px;
+	margin: 0 auto;
+	background-color: #222;
+}
+
+.el-menu--horizontal {
+	height: 55px;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    float: left;
+    color: #9d9d9d;
+    padding: 15px 15px;
+  	margin-left: -15px;
+    line-height: 20px;
+}
+
+.navbar-brand:active {
+	color: #fff;
+}
+
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.el-menu--horizontal>.el-menu-item a, .el-menu--horizontal>.el-menu-item a:hover {
+	color: #9d9d9d !important;
+}
+
+.el-menu--horizontal>.el-menu-item.is-active {
+	border-bottom: 2px solid #f56c6c !important;
+    background-color: #080808 !important;
+}
+
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+    background-color: #080808 !important;
+}
+
+.el-menu--horizontal>.el-menu-item:not(.is-disabled):focus, .el-menu--horizontal>.el-menu-item:not(.is-disabled):hover {
+	background-color: #080808 !important;
+}
+
+.el-sub-menu {
+	margin-left: 210px !important;
+}
+
+.el-menu--horizontal>.el-sub-menu .el-sub-menu__title {
+    color: #9d9d9d !important;
+}
+
+.example-showcase .el-dropdown-link { 
+	cursor: pointer;
+	color: var(--el-color-primary);
+	float: right!important;
+	align-items: center;
+}
+
+.el-menu--horizontal>.el-sub-menu .el-sub-menu__title:hover {
+		background-color: #080808 !important;
+}
+
+.el-menu--horizontal>.el-sub-menu.is-active .el-sub-menu__title {
+	border-bottom: 2px solid #f56c6c !important;
+}
+
+.el-menu-item {
+	justify-content: center;
+}
+
+.dh-top-tx {
+	height: 55px; 
+	width: 55px; 
+}
+
+.el-badge__content.is-fixed.is-dot {
+	right: 10px !important;
+	top: 17px !important;
+}
+
+.dh-top-tx-img {
+	height: 25px; 
+	width: 25px; 
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.content {
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	width: 1170px;
+	height: auto;
+}
+
+.content-1{
+	margin: 0 auto;
+	background-color: white;
+	height: auto;
+	width: 725px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #ddd;
+}
+
+.content-1-1 {
+	padding: 10px;
+}
+
+.img-one {
+	background-image: url(../image/Element.png);
+	background-size: 100%;
+} 
+
+.img-two {
+	background-image: url(../image/Nowcoder.png);
+	background-size: 100%;
+} 
+
+.img-three {
+	background-image: url(../image/CSDN.png);
+	background-size: 100%;
+} 
+
+.img-four {
+	background-image: url(../image/Bilibili.png);
+	background-size: 100%;
+}
+
+.el-carousel__item h3 {
+	color: #475669;
+	opacity: 0.75;
+	line-height: 200px;
+	margin: 0;
+	text-align: center;
+}
+
+.el-carousel__item:nth-child(2n) {
+	background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+	background-color: #d3dce6;
+}
+
+hr {
+    background: none !important;
+    height: 1px !important;
+    border: 0 !important;
+    border-top: 1px solid #eee !important;
+}
+
+.content-2 {
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	height: auto;
+	width: 725px;
+}
+
+.content-2-1 {
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background-color: white;
+	height: auto;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #ddd;
+}
+
+.infinite-list-wrapper {
+	padding: 10px;
+}
+
+.el-rate {
+	align-items: normal !important;
+}
+
+.content-2-1-div {
+	margin-left: 70px !important;
+}
+
+.content-2-1-zan {
+	height: 30px;
+	width: 150px;
+	margin: 0 auto; 
+	float: left; 
+	color: #95a5a6; 
+	top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.btn-link {
+	color: #95a5a6;
+}
+
+.glyphicon {
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.tfot {
+	height: 200px;
+	width: auto;
+	margin-top: 100px;
+}
+
+.botp {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+	background-color: #8a8a8a;
+	z-index: 9999;
+}
+
+.botp-logo {
+	float: left;;
+	height: 30px;
+	width: 30px;
+}
+
+.botp-logo-btn {
+	height: 30px;
+	width: 30px;
+	background-image: url(../image/vue.png);
+	background-size: 100%;
+	border: 0;
+	background-color: #8a8a8a;
+}
+
+.botp-check {
+	float: left;
+	height: 30px;
+	width: 300px;
+	margin-left: 5px;
+}
+
+.botp-check-cont-1 {
+	background-color: white;
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: var(--el-input-border-radius,var(--el-border-radius-base));
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.el-input__wrapper {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.botp-check-cont-2 {
+	float: left;
+	height: 30px;
+	width: 240px;
+}
+
+.botp-time {
+	float: right;
+	height: 30px;
+	width: 150px;
+
+}
+
+.botp-time-btn {
+	height: 30px;
+	width: 150px;
+	padding: 0;
+	border: 0;
+	background-color: #8a8a8a
+}
+
+#showDate {
+	margin-top: 0;
+	float: left;
+	color: white;
+}
+
+.imagetwo {
+		height: 40px; 
+		width: 40px; 
+		border-radius: 20px;
+		background-image: url('../../assets/image/yonghu2.png');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}

@@ -1,0 +1,58 @@
+.login {
+	width: auto;
+	height: 100vw;
+	background: white url(https://cdn.acwing.com/static/web/img/background.png) fixed;
+	background-size: auto;
+}
+
+.el-form-item__content {
+    justify-content: center;
+}
+ 
+.mylogin {
+	align: center;
+	width: 240px;
+	height: 280px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 50px 40px 40px 40px;
+	background-color: rgb(255, 255, 255);
+}
+ 
+.inps input {
+	border: none;
+	color: black !important;
+	background-color: transparent;
+	font-size: 12px;
+}
+
+#images1{
+  	margin-top: 6px;
+  	height: 24px;
+  	width: auto;
+  	background: no-repeat;
+  	background-image: url(../image/yonghu.png);
+  	background-size: 100%;
+}
+#images2{
+  	margin-top: 6px;
+  	height: 24px;
+  	width: auto;
+  	background: no-repeat;
+  	background-image: url(../image/suo.png);
+  	background-size: 100%;
+}
+ 
+.submitBtn {
+	background-color: transparent;
+	color: #39f;
+	width: 200px;
+}
+
+.unlogin{
+		text-align: center;
+}

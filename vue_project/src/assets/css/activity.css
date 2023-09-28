@@ -1,0 +1,28 @@
+.content-1-1-h {
+	text-align: center;
+	font-size: 36px;
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.content-2-actv {
+	height: 100px;
+	width: 705px;
+	padding: 15px 10px 15px 10px;
+}
+
+.content-2-dv {
+	height: 100px;
+	width: 705px; 
+}
+
+.imagetwo {
+	height: 40px; 
+	width: 40px; 
+	border-radius: 20px;
+	background-image: url('../../assets/image/yonghu2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
